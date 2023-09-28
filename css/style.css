@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+body{
+  font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.ml-164{
+  margin-left: 160px;
+}
+.common-btn{
+  border-radius: 100px;
+  background: linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
+  box-shadow: 10px 20px 50px 0px rgba(240, 77, 41, 0.20);
+  padding: 16px 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.play-btn{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 10px 20px 50px 0px rgba(240, 77, 41, 0.20);
+}
+.play-btn i{
+  line-height: 70px;
+}
+
+.container{
+  max-width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.438rem 0;
+}
+nav .nav-icon{
+  display: flex;
+  align-items: center;
+}
+nav .nav-icon a{
+  color: #4f4f4f;
+  margin-left: 0.313rem;
+  font-weight: 700;
+}
+nav .nav-menu ul li{
+  display: inline-block;
+  margin: 0 1.25rem;
+}
+nav .nav-menu ul li a{
+  font-size: 1.5rem;
+  color: #4f4f4f;
+}
+.nav-right ul li{
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+header{
+  background: linear-gradient(204deg, #FFF5F2 0.47%, #FBFAF8 80.2%);
+  position: relative;
+  z-index: 999;
+}
+header .header-ab{
+  position: absolute;
+  top: 99px;
+  left: 878px;
+}
+header .header-ag-round{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+header .header-ab-dum{
+  height: 80px;
+  width: 80px;
+  border-radius: 16px;
+  background-color: #fff;
+  position: absolute;
+  top: 170px;
+  right: 632px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .heart-rate{
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 10px;
+  left: 910px;
+  bottom: 460px;
+}
+header .heart-rate .heart-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f7eae8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+header .heart-rate .heart-text p span{
+  color: #F44C46;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner ul{
+  margin: 0;
+  padding: 0;
+}
+.banner ul li{
+  display: inline-block;
+}
+.banner ul li .play-btn{
+  margin-right: 30px;
+  margin-left: 15px;
+}
+.banner ul li .play-btn i{
+  color: #F44C46;
+}
+.banner ul li .watch{
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #6a6a6a;
+}
+.banner .banner-title{
+  position: relative;
+}
+.banner .banner-title .title-ab{
+  position: absolute;
+  left: 143px;
+  bottom: 145px;
+}
+.banner .banner-title h1{
+  font-size: 3.75rem;
+  color: #2A2618;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.banner .banner-title p{
+  font-size: 1.25rem;
+  color: #6a6a6a;
+}
+.banner .banner-title p a{
+  color: #F44C46;
+  font-weight: 500;
+}
+.banner .banner-title ul{
+  margin-bottom: 32px;
+}
+.banner-counter .single-banner-counter{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.banner-counter .single-banner-counter span{
+  background: -webkit-linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+.banner-counter .single-banner-counter li{
+  text-align: center;
+  display: block;
+}
+.popular-exercises{
+  padding-top: 103px;
+  padding-bottom: 260px;
+}
+.popular-exercises h3 span{
+  height: 3px;
+  width: 50px;
+  background-color: #F44C46;
+  display: inline-block;
+  margin-right: 8px;
+}
+.popular-exercises h3{
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+  color: #2E2E46;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+.single-popular-exercises{
+  display: flex;
+}
+.single-popular-exercises .single-popular-exercis{
+  max-width: 324px;
+  padding:15px 18px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.single-popular-exercises .single-popular-exercis .running{
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  background-color: #f2e8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 23px;
+}
+.single-popular-exercises .single-popular-exercis .running-text h4{
+  margin-bottom: 10px;
+}
+.single-popular-exercises .single-popular-exercis .running-2{
+  background-color: #e8fff2;
+}
+.single-popular-exercises .single-popular-exercis .running-3{
+  background-color: #FFEDE8;
+}
+.single-popular-exercises .single-popular-exercis .running-text h4{
+  font-weight: 700;
+  color: #2E2E46;
+  font-size: 1.25rem;
+}
+.single-popular-exercises .single-popular-exercis .running-text p{
+  font-size: 0.875rem;
+  color: #69697B;
+}
+
+
+main{
+  background-color: #F9F9F9;
+}
+
+
+/* workout-program-start */
+.workout-program{
+  position: relative;
+  padding-bottom: 120px;
+}
+.workout-program .workout-5{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.workout-program .workout-6{
+  position: absolute;
+  top: -50px;
+  right: 64px;
+  z-index: 999;
+}
+.workout-program .workout-7{
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.workout-program .workout-hadding{
+  text-align: center;
+  position: relative;
+  padding-bottom: 100px;
+}
+.workout-program .workout-hadding h2{
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2A2618;
+}
+.workout-hadding .workout-hadding-ab{
+  position: absolute;
+  bottom: -24;
+  left: 43%;
+}
+.workout-main{
+  display: flex;
+  gap: 64px;
+  /* align-items: center; */
+}
+.workout-main .workout-img{
+  width: 433px;
+  height: 490px;
+  position: relative;
+  border-radius: 40px 40px 40px 0px;
+  background: linear-gradient(180deg, #F55349 0%, #FA7754 100%); 
+}
+.workout-main .workout-img .work-ab-main{
+  position: absolute;
+  bottom: -4px;
+  left: 42px;
+  z-index: 99;
+}
+.workout-main .workout-img .work-ab-1{
+  position: absolute;
+  top: -35px;
+  left: -25px;
+}
+.workout-main .workout-img .work-ab-2{
+  position: absolute;
+  bottom: -74px;
+  left: -85px
+}
+.workout-main .workout-img .work-ab-3{
+  position: absolute;
+  bottom: 150px;
+  right: 73px;
+}
+.workout-main .workout-img .work-ab-4{
+  position: absolute;
+  background: #fff;
+  border-radius: 15px;
+  padding: 16px;
+  bottom: 33px;
+  right: -195px;
+}
+.workout-text{
+  padding-top: 120px;
+}
+.workout-text h3{
+  font-size: 1.625rem;
+  color: #2a2618;
+  margin-bottom: 12px;
+}
+.workout-text p{
+  color: #6a6464;
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+.workout-text h4{
+  margin-top: 27px;
+  color: #F55349;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.workout-text a{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  border: 1px solid #F44C46;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+}
+.workout-text a i{
+  color: #F44C46;
+  font-size: 14px;
+}
+/* workout-program-end */
+
+/* greatest-fitness-start */
+.greatest-fitness{
+  position: relative;
+  padding-bottom: 170px;
+}
+.greatest-fitness .greatest-hadding{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.greatest-fitness .greatest-hadding h2{
+  font-size: 3.125rem;
+  color: #2A2618;
+}
+.greatest-fitness .greatest-hadding h2 span{
+  color: #F44C46;
+}
+.g-fitness{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.g-fitness .single-fitnes{
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 35px;
+  max-width: 350px;
+}
+.g-fitness .single-fitnes-2{
+ max-width: 405px;
+}
+.g-fitness .single-fitnes .fitnes-logo{
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf5ff;
+  height: 110px;
+  width: 110px;
+}
+.g-fitness .single-fitnes-2 .fitnes-logo{
+  height: 130px;
+  width: 130px;
+  background-color: #FFEDE8;
+}
+.g-fitness .single-fitnes-3 .fitnes-logo{
+  background-color: #f6edff;
+}
+.g-fitness .single-fitnes .fitnes-text h2{
+  font-size: 1.875rem;
+  margin: 25px 0px;
+}
+.g-fitness .single-fitnes-2 .fitnes-text h2{
+  font-size: 2.188rem;
+}
+.g-fitness .single-fitnes .fitnes-text p{
+  font-size: 1.125rem;
+  line-height: 30px;
+  color: #6a6464;
+}
+/* greatest-fitness-end */
+
+
+/* peoples-says-start */
+.peoples-says{
+  padding-bottom: 175px;
+}
+.peoples-says .people-say-hadding{
+  position: relative;
+}
+.peoples-says .people-say-hadding .people-say-hadding-ab{
+  position: absolute;
+  left: 210px;
+  bottom: 6px;
+}
+.peoples-says .people-say-hadding h2{
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.peoples-says .people-say-box{
+  max-width: 870px;
+  border-radius: 40px;
+  background-color: #4587D4;
+  padding: 70px;
+  margin-top: 65px;
+  position: relative;
+}
+.peoples-says-right-1{
+  position: absolute;
+  border-radius: 35px;
+  background-color: #fff;
+  padding: 55px 45px 34px 50px;
+  top: -280px;
+  right: -200px;
+}
+.people-says-right-1 .peoples-says-right-img{
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+  margin-bottom: 30px;
+  background-color: #FABC1C;
+}
+.people-says-right-1 .peoples-says-text h2{
+  font-size: 1.875rem;
+  color: #2A2618;
+}
+.people-says-right-1 .peoples-says-text h5{
+  font-size: 1.25rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.peoples-says-right-1 .peoples-says-text p{
+  font-size: 1.125rem;
+  line-height: 32px;
+  color: #6a6464;
+}
+.peoples-says-right-1 .peoples-says-text ul{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.peoples-says-right-1 .peoples-says-text ul .peoples-says-text-li{
+  display: inline-block;
+  text-align: right;
+  margin: 0 5px;
+  margin-right: 0px;
+}
+.peoples-says-right-1 .peoples-says-text ul li a i{
+  color: #FABC1C;
+}
+.peoples-says .people-say-box h3{
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.peoples-says .people-say-box ul{
+  display: flex;
+}
+.peoples-says .people-say-box ul li{
+  margin-right: 40px;
+}
+.peoples-says .people-say-box ul li .common-btn-2{
+  border: 2px solid #fff;
+  background-color: transparent;
+  padding: 16px 30px;
+  border-radius: 100px;
+  color: #fff;
+}
+.peoples-says-right-2{
+  position: absolute;
+  border-radius: 35px;
+  background-color: #fff;
+  padding: 21px 27px;
+  bottom: -90px;
+  right: -200px;
+  display: flex;
+  align-items: center;
+}
+.peoples-says-right-2 .peoples-says-right-2-img{
+  height: 115px;
+  width: 115px;
+  border-radius: 100px;
+  margin-right: 35px;
+}
+.peoples-says-right-2 .peoples-says-right-2-text h3{
+  color: #2A2618;
+  margin-bottom: 10px;
+  font-size: 1.875rem;
+}
+.peoples-says-right-2 .peoples-says-right-2-text ul{
+  display: flex;
+  justify-content: end;
+}
+.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li{
+  display: inline-block;
+    text-align: right;
+    margin: 0 5px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li a i{
+  color: #FABC1C;
+}
+/* peoples-says-end */
+
+/* footer-section-start */
+footer{
+  background: linear-gradient(197deg, #FD8A5A 6.53%, #F44C46 244.56%);
+  padding-top: 100px;
+  color: #fff;
+}
+.footer-menus{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #faab62;
+  padding-bottom: 30px;
+}
+.footer-menus .footer-logo a{
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+.footer-menus .footer-logo p{
+  padding: 30px 0px;
+  font-size: 1.25rem;
+}
+.footer-menus .footer-logo input{
+  padding: 17px;
+  position: relative;
+  border: none;
+}
+.footer-menus .footer-logo button{
+  position: absolute;
+  padding:10px 12px;
+  border: none;
+  background: linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
+}
+.footer-menus .single-menus .footer-title{
+  margin-bottom: 27px;
+  font-size: 1.25rem;
+}
+.footer-menus .single-menus ul li{
+  margin-bottom: 16px;
+}
+.footer-menus .single-menus ul li a{
+  color: #fff;
+  font-size: 1rem;
+}
+.footer-menus .single-menus .footer-social{
+  display: flex;
+}
+.footer-menus .single-menus .footer-social li a{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+  display: inline-block;
+}
+.footer-menus .single-menus .footer-social li{
+  margin: 0px 7px;
+}
+.footer-menus .single-menus .footer-social li a i{
+  color: #2A2618;
+  transition: .4s;
+}
+.footer-menus .single-menus .footer-social li a:hover i{
+  color: #F55349;
+}
+.footer-copy{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copy ul{
+  display: flex;
+}
+.footer-copy ul li{
+  padding: 0px 15px;
+}
+.footer-copy ul li a{
+  color: #edf5ff;
+}
+.footer-copy ul li:first-child{
+  border-right: 1px solid #fff;
+}
+/* footer-section-end */
+
+
+@media screen and (max-width: 575.98px) {
+   
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    
+}
+@media screen and (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
