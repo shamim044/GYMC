@@ -1,34 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 
-body{
+body {
   font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 0;
-}
-p{
-  margin: 0;
-  padding: 0;
-}
-a{
-  text-decoration: none;
-}
-ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-h1, h2, h3, h4{
+  font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
-.ml-164{
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ml-164 {
   margin-left: 160px;
 }
-.common-btn{
+
+.common-btn {
   border-radius: 100px;
   background: linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
   box-shadow: 10px 20px 50px 0px rgba(240, 77, 41, 0.20);
@@ -36,7 +45,8 @@ h1, h2, h3, h4{
   font-weight: 500;
   color: #fff;
 }
-.play-btn{
+
+.play-btn {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -45,60 +55,70 @@ h1, h2, h3, h4{
   background-color: #fff;
   box-shadow: 10px 20px 50px 0px rgba(240, 77, 41, 0.20);
 }
-.play-btn i{
+
+.play-btn i {
   line-height: 70px;
 }
 
-.container{
+.container {
   max-width: 1210px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2.438rem 0;
 }
-nav .nav-icon{
+
+nav .nav-icon {
   display: flex;
   align-items: center;
 }
-nav .nav-icon a{
+
+nav .nav-icon a {
   color: #4f4f4f;
   margin-left: 0.313rem;
   font-weight: 700;
 }
-nav .nav-menu ul li{
+
+nav .nav-menu ul li {
   display: inline-block;
   margin: 0 1.25rem;
 }
-nav .nav-menu ul li a{
+
+nav .nav-menu ul li a {
   font-size: 1.5rem;
   color: #4f4f4f;
 }
-.nav-right ul li{
+
+.nav-right ul li {
   display: inline-block;
   margin-left: 1.5rem;
 }
-header{
+
+header {
   background: linear-gradient(204deg, #FFF5F2 0.47%, #FBFAF8 80.2%);
   position: relative;
   z-index: 999;
 }
-header .header-ab{
+
+header .header-ab {
   position: absolute;
   top: 99px;
   left: 878px;
 }
-header .header-ag-round{
+
+header .header-ag-round {
   position: absolute;
   right: 0;
   top: 0;
   z-index: -1;
 }
-header .header-ab-dum{
+
+header .header-ab-dum {
   height: 80px;
   width: 80px;
   border-radius: 16px;
@@ -110,7 +130,8 @@ header .header-ab-dum{
   align-items: center;
   justify-content: center;
 }
-header .heart-rate{
+
+header .heart-rate {
   position: absolute;
   padding: 10px;
   display: flex;
@@ -121,7 +142,8 @@ header .heart-rate{
   left: 910px;
   bottom: 460px;
 }
-header .heart-rate .heart-img{
+
+header .heart-rate .heart-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -131,86 +153,104 @@ header .heart-rate .heart-img{
   justify-content: center;
   margin-right: 20px;
 }
-header .heart-rate .heart-text p span{
+
+header .heart-rate .heart-text p span {
   color: #F44C46;
 }
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.banner ul{
+
+.banner ul {
   margin: 0;
   padding: 0;
 }
-.banner ul li{
+
+.banner ul li {
   display: inline-block;
 }
-.banner ul li .play-btn{
+
+.banner ul li .play-btn {
   margin-right: 30px;
   margin-left: 15px;
 }
-.banner ul li .play-btn i{
+
+.banner ul li .play-btn i {
   color: #F44C46;
 }
-.banner ul li .watch{
+
+.banner ul li .watch {
   font-size: 1.125rem;
   font-weight: 500;
   color: #6a6a6a;
 }
-.banner .banner-title{
+
+.banner .banner-title {
   position: relative;
 }
-.banner .banner-title .title-ab{
+
+.banner .banner-title .title-ab {
   position: absolute;
   left: 143px;
   bottom: 145px;
 }
-.banner .banner-title h1{
+
+.banner .banner-title h1 {
   font-size: 3.75rem;
   color: #2A2618;
   font-weight: 700;
   margin-bottom: 60px;
 }
-.banner .banner-title p{
+
+.banner .banner-title p {
   font-size: 1.25rem;
   color: #6a6a6a;
 }
-.banner .banner-title p a{
+
+.banner .banner-title p a {
   color: #F44C46;
   font-weight: 500;
 }
-.banner .banner-title ul{
+
+.banner .banner-title ul {
   margin-bottom: 32px;
 }
-.banner-counter .single-banner-counter{
+
+.banner-counter .single-banner-counter {
   text-align: center;
   margin-bottom: 20px;
 }
-.banner-counter .single-banner-counter span{
+
+.banner-counter .single-banner-counter span {
   background: -webkit-linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2.75rem;
   font-weight: 700;
 }
-.banner-counter .single-banner-counter li{
+
+.banner-counter .single-banner-counter li {
   text-align: center;
   display: block;
 }
-.popular-exercises{
+
+.popular-exercises {
   padding-top: 103px;
   padding-bottom: 260px;
 }
-.popular-exercises h3 span{
+
+.popular-exercises h3 span {
   height: 3px;
   width: 50px;
   background-color: #F44C46;
   display: inline-block;
   margin-right: 8px;
 }
-.popular-exercises h3{
+
+.popular-exercises h3 {
   display: flex;
   align-items: center;
   font-size: 1.75rem;
@@ -218,19 +258,22 @@ header .heart-rate .heart-text p span{
   font-weight: 600;
   padding-bottom: 32px;
 }
-.single-popular-exercises{
+
+.single-popular-exercises {
   display: flex;
 }
-.single-popular-exercises .single-popular-exercis{
+
+.single-popular-exercises .single-popular-exercis {
   max-width: 324px;
-  padding:15px 18px;
+  padding: 15px 18px;
   background-color: #fff;
   border-radius: 8px;
   display: flex;
   align-items: center;
   margin-right: 30px;
 }
-.single-popular-exercises .single-popular-exercis .running{
+
+.single-popular-exercises .single-popular-exercis .running {
   height: 72px;
   width: 72px;
   border-radius: 50%;
@@ -240,101 +283,119 @@ header .heart-rate .heart-text p span{
   justify-content: center;
   margin-right: 23px;
 }
-.single-popular-exercises .single-popular-exercis .running-text h4{
+
+.single-popular-exercises .single-popular-exercis .running-text h4 {
   margin-bottom: 10px;
 }
-.single-popular-exercises .single-popular-exercis .running-2{
+
+.single-popular-exercises .single-popular-exercis .running-2 {
   background-color: #e8fff2;
 }
-.single-popular-exercises .single-popular-exercis .running-3{
+
+.single-popular-exercises .single-popular-exercis .running-3 {
   background-color: #FFEDE8;
 }
-.single-popular-exercises .single-popular-exercis .running-text h4{
+
+.single-popular-exercises .single-popular-exercis .running-text h4 {
   font-weight: 700;
   color: #2E2E46;
   font-size: 1.25rem;
 }
-.single-popular-exercises .single-popular-exercis .running-text p{
+
+.single-popular-exercises .single-popular-exercis .running-text p {
   font-size: 0.875rem;
   color: #69697B;
 }
 
 
-main{
+main {
   background-color: #F9F9F9;
 }
 
 
 /* workout-program-start */
-.workout-program{
+.workout-program {
   position: relative;
   padding-bottom: 120px;
 }
-.workout-program .workout-5{
+
+.workout-program .workout-5 {
   position: absolute;
   top: 0;
   right: 0;
 }
-.workout-program .workout-6{
+
+.workout-program .workout-6 {
   position: absolute;
   top: -50px;
   right: 64px;
   z-index: 999;
 }
-.workout-program .workout-7{
+
+.workout-program .workout-7 {
   position: absolute;
   top: 0px;
   left: 0;
 }
-.workout-program .workout-hadding{
+
+.workout-program .workout-hadding {
   text-align: center;
   position: relative;
   padding-bottom: 100px;
 }
-.workout-program .workout-hadding h2{
+
+.workout-program .workout-hadding h2 {
   font-size: 3.125rem;
   font-weight: 700;
   color: #2A2618;
 }
-.workout-hadding .workout-hadding-ab{
+
+.workout-hadding .workout-hadding-ab {
   position: absolute;
   bottom: -24;
   left: 43%;
 }
-.workout-main{
+
+.workout-main {
   display: flex;
   gap: 64px;
   /* align-items: center; */
 }
-.workout-main .workout-img{
+
+.workout-main .workout-img {
   width: 433px;
   height: 490px;
   position: relative;
   border-radius: 40px 40px 40px 0px;
-  background: linear-gradient(180deg, #F55349 0%, #FA7754 100%); 
+  background: linear-gradient(180deg, #F55349 0%, #FA7754 100%);
 }
-.workout-main .workout-img .work-ab-main{
+
+.workout-main .workout-img .work-ab-main {
   position: absolute;
   bottom: -4px;
   left: 42px;
   z-index: 99;
 }
-.workout-main .workout-img .work-ab-1{
+
+.workout-main .workout-img .work-ab-1 {
   position: absolute;
   top: -35px;
   left: -25px;
 }
-.workout-main .workout-img .work-ab-2{
+
+.workout-main .workout-img .work-ab-2 {
   position: absolute;
   bottom: -74px;
   left: -85px
 }
-.workout-main .workout-img .work-ab-3{
+
+.workout-main .workout-img .work-ab-3 {
   position: absolute;
   bottom: 150px;
   right: 73px;
 }
-.workout-main .workout-img .work-ab-4{
+
+.workout-main .workout-img .work-ab-4 {
   position: absolute;
   background: #fff;
   border-radius: 15px;
@@ -342,26 +403,31 @@ main{
   bottom: 33px;
   right: -195px;
 }
-.workout-text{
+
+.workout-text {
   padding-top: 120px;
 }
-.workout-text h3{
+
+.workout-text h3 {
   font-size: 1.625rem;
   color: #2a2618;
   margin-bottom: 12px;
 }
-.workout-text p{
+
+.workout-text p {
   color: #6a6464;
   font-size: 1.125rem;
   line-height: 28px;
 }
-.workout-text h4{
+
+.workout-text h4 {
   margin-top: 27px;
   color: #F55349;
   font-size: 1.125rem;
   font-weight: 500;
 }
-.workout-text a{
+
+.workout-text a {
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -370,44 +436,53 @@ main{
   text-align: center;
   line-height: 18px;
 }
-.workout-text a i{
+
+.workout-text a i {
   color: #F44C46;
   font-size: 14px;
 }
+
 /* workout-program-end */
 
 /* greatest-fitness-start */
-.greatest-fitness{
+.greatest-fitness {
   position: relative;
   padding-bottom: 170px;
 }
-.greatest-fitness .greatest-hadding{
+
+.greatest-fitness .greatest-hadding {
   text-align: center;
   padding-bottom: 50px;
 }
-.greatest-fitness .greatest-hadding h2{
+
+.greatest-fitness .greatest-hadding h2 {
   font-size: 3.125rem;
   color: #2A2618;
 }
-.greatest-fitness .greatest-hadding h2 span{
+
+.greatest-fitness .greatest-hadding h2 span {
   color: #F44C46;
 }
-.g-fitness{
+
+.g-fitness {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-.g-fitness .single-fitnes{
+
+.g-fitness .single-fitnes {
   background-color: #fff;
   border-radius: 30px;
   padding: 35px;
   max-width: 350px;
 }
-.g-fitness .single-fitnes-2{
- max-width: 405px;
+
+.g-fitness .single-fitnes-2 {
+  max-width: 405px;
 }
-.g-fitness .single-fitnes .fitnes-logo{
+
+.g-fitness .single-fitnes .fitnes-logo {
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -416,46 +491,56 @@ main{
   height: 110px;
   width: 110px;
 }
-.g-fitness .single-fitnes-2 .fitnes-logo{
+
+.g-fitness .single-fitnes-2 .fitnes-logo {
   height: 130px;
   width: 130px;
   background-color: #FFEDE8;
 }
-.g-fitness .single-fitnes-3 .fitnes-logo{
+
+.g-fitness .single-fitnes-3 .fitnes-logo {
   background-color: #f6edff;
 }
-.g-fitness .single-fitnes .fitnes-text h2{
+
+.g-fitness .single-fitnes .fitnes-text h2 {
   font-size: 1.875rem;
   margin: 25px 0px;
 }
-.g-fitness .single-fitnes-2 .fitnes-text h2{
+
+.g-fitness .single-fitnes-2 .fitnes-text h2 {
   font-size: 2.188rem;
 }
-.g-fitness .single-fitnes .fitnes-text p{
+
+.g-fitness .single-fitnes .fitnes-text p {
   font-size: 1.125rem;
   line-height: 30px;
   color: #6a6464;
 }
+
 /* greatest-fitness-end */
 
 
 /* peoples-says-start */
-.peoples-says{
+.peoples-says {
   padding-bottom: 175px;
 }
-.peoples-says .people-say-hadding{
+
+.peoples-says .people-say-hadding {
   position: relative;
 }
-.peoples-says .people-say-hadding .people-say-hadding-ab{
+
+.peoples-says .people-say-hadding .people-say-hadding-ab {
   position: absolute;
   left: 210px;
   bottom: 6px;
 }
-.peoples-says .people-say-hadding h2{
+
+.peoples-says .people-say-hadding h2 {
   font-size: 3.125rem;
   font-weight: 700;
 }
-.peoples-says .people-say-box{
+
+.peoples-says .people-say-box {
   max-width: 870px;
   border-radius: 40px;
   background-color: #4587D4;
@@ -463,7 +548,8 @@ main{
   margin-top: 65px;
   position: relative;
 }
-.peoples-says-right-1{
+
+.peoples-says-right-1 {
   position: absolute;
   border-radius: 35px;
   background-color: #fff;
@@ -471,61 +557,73 @@ main{
   top: -280px;
   right: -200px;
 }
-.people-says-right-1 .peoples-says-right-img{
+
+.people-says-right-1 .peoples-says-right-img {
   height: 130px;
   width: 130px;
   border-radius: 100px;
   margin-bottom: 30px;
   background-color: #FABC1C;
 }
-.people-says-right-1 .peoples-says-text h2{
+
+.people-says-right-1 .peoples-says-text h2 {
   font-size: 1.875rem;
   color: #2A2618;
 }
-.people-says-right-1 .peoples-says-text h5{
+
+.people-says-right-1 .peoples-says-text h5 {
   font-size: 1.25rem;
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.peoples-says-right-1 .peoples-says-text p{
+
+.peoples-says-right-1 .peoples-says-text p {
   font-size: 1.125rem;
   line-height: 32px;
   color: #6a6464;
 }
-.peoples-says-right-1 .peoples-says-text ul{
+
+.peoples-says-right-1 .peoples-says-text ul {
   display: flex;
   justify-content: end;
   margin-top: 20px;
 }
-.peoples-says-right-1 .peoples-says-text ul .peoples-says-text-li{
+
+.peoples-says-right-1 .peoples-says-text ul .peoples-says-text-li {
   display: inline-block;
   text-align: right;
   margin: 0 5px;
   margin-right: 0px;
 }
-.peoples-says-right-1 .peoples-says-text ul li a i{
+
+.peoples-says-right-1 .peoples-says-text ul li a i {
   color: #FABC1C;
 }
-.peoples-says .people-say-box h3{
+
+.peoples-says .people-say-box h3 {
   color: #fff;
   font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 45px;
 }
-.peoples-says .people-say-box ul{
+
+.peoples-says .people-say-box ul {
   display: flex;
 }
-.peoples-says .people-say-box ul li{
+
+.peoples-says .people-say-box ul li {
   margin-right: 40px;
 }
-.peoples-says .people-say-box ul li .common-btn-2{
+
+.peoples-says .people-say-box ul li .common-btn-2 {
   border: 2px solid #fff;
   background-color: transparent;
   padding: 16px 30px;
   border-radius: 100px;
   color: #fff;
 }
-.peoples-says-right-2{
+
+.peoples-says-right-2 {
   position: absolute;
   border-radius: 35px;
   background-color: #fff;
@@ -535,80 +633,96 @@ main{
   display: flex;
   align-items: center;
 }
-.peoples-says-right-2 .peoples-says-right-2-img{
+
+.peoples-says-right-2 .peoples-says-right-2-img {
   height: 115px;
   width: 115px;
   border-radius: 100px;
   margin-right: 35px;
 }
-.peoples-says-right-2 .peoples-says-right-2-text h3{
+
+.peoples-says-right-2 .peoples-says-right-2-text h3 {
   color: #2A2618;
   margin-bottom: 10px;
   font-size: 1.875rem;
 }
-.peoples-says-right-2 .peoples-says-right-2-text ul{
+
+.peoples-says-right-2 .peoples-says-right-2-text ul {
   display: flex;
   justify-content: end;
 }
-.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li{
+
+.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li {
   display: inline-block;
-    text-align: right;
-    margin: 0 5px;
-    margin-right: 0px;
-    margin-top: 10px;
+  text-align: right;
+  margin: 0 5px;
+  margin-right: 0px;
+  margin-top: 10px;
 }
-.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li a i{
+
+.peoples-says-right-2 .peoples-says-right-2-text ul .peoples-says-text-li a i {
   color: #FABC1C;
 }
+
 /* peoples-says-end */
 
 /* footer-section-start */
-footer{
+footer {
   background: linear-gradient(197deg, #FD8A5A 6.53%, #F44C46 244.56%);
   padding-top: 100px;
   color: #fff;
 }
-.footer-menus{
+
+.footer-menus {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #faab62;
   padding-bottom: 30px;
 }
-.footer-menus .footer-logo a{
+
+.footer-menus .footer-logo a {
   font-size: 2.25rem;
   font-weight: bold;
   color: #fff;
 }
-.footer-menus .footer-logo p{
+
+.footer-menus .footer-logo p {
   padding: 30px 0px;
   font-size: 1.25rem;
 }
-.footer-menus .footer-logo input{
+
+.footer-menus .footer-logo input {
   padding: 17px;
   position: relative;
   border: none;
 }
-.footer-menus .footer-logo button{
+
+.footer-menus .footer-logo button {
   position: absolute;
-  padding:10px 12px;
+  padding: 10px 12px;
   border: none;
   background: linear-gradient(98deg, #FD8A5A -24.21%, #F44C46 100%);
 }
-.footer-menus .single-menus .footer-title{
+
+.footer-menus .single-menus .footer-title {
   margin-bottom: 27px;
   font-size: 1.25rem;
 }
-.footer-menus .single-menus ul li{
+
+.footer-menus .single-menus ul li {
   margin-bottom: 16px;
 }
-.footer-menus .single-menus ul li a{
+
+.footer-menus .single-menus ul li a {
   color: #fff;
   font-size: 1rem;
 }
-.footer-menus .single-menus .footer-social{
+
+.footer-menus .single-menus .footer-social {
   display: flex;
 }
-.footer-menus .single-menus .footer-social li a{
+
+.footer-menus .single-menus .footer-social li a {
   height: 50px;
   width: 50px;
   border-radius: 100px;
@@ -617,48 +731,402 @@ footer{
   background-color: #fff;
   display: inline-block;
 }
-.footer-menus .single-menus .footer-social li{
+
+.footer-menus .single-menus .footer-social li {
   margin: 0px 7px;
 }
-.footer-menus .single-menus .footer-social li a i{
+
+.footer-menus .single-menus .footer-social li a i {
   color: #2A2618;
   transition: .4s;
 }
-.footer-menus .single-menus .footer-social li a:hover i{
+
+.footer-menus .single-menus .footer-social li a:hover i {
   color: #F55349;
 }
-.footer-copy{
+
+.footer-copy {
   padding: 30px 0px;
   display: flex;
   justify-content: space-between;
 }
-.footer-copy ul{
+
+.footer-copy ul {
   display: flex;
 }
-.footer-copy ul li{
+
+.footer-copy ul li {
   padding: 0px 15px;
 }
-.footer-copy ul li a{
+
+.footer-copy ul li a {
   color: #edf5ff;
 }
-.footer-copy ul li:first-child{
+
+.footer-copy ul li:first-child {
   border-right: 1px solid #fff;
 }
+
 /* footer-section-end */
 
+.display {
+  display: none;
+}
 
 @media screen and (max-width: 575.98px) {
-   
+  .nav-menu {
+    display: none;
+  }
+
+  .banner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner .banner-title h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .banner .banner-title .title-ab {
+    position: absolute;
+    left: 52px;
+    bottom: 535px
+  }
+
+  .banner ul li {
+    display: block;
+  }
+
+  .banner .common-btn {
+    display: block;
+  }
+
+  .banner .banner-title ul {
+    padding-top: 395px;
+  }
+
+  header .header-ab {
+    top: 265px;
+    left: 85px;
+  }
+
+  header .header-ab img {
+    max-width: 70%;
+  }
+
+  header .heart-rate {
+    left: 45px;
+    bottom: 1130px;
+  }
+
+  .single-popular-exercises {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .single-popular-exercises .single-popular-exercis {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .ml-164 {
+    margin-left: 0px;
+  }
+
+  .banner .banner-title p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .banner ul li .play-btn {
+    display: none;
+  }
+
+  .banner ul li .watch {
+    display: none;
+  }
+
+  .popular-exercises h3 {
+    justify-content: center;
+  }
+
+  .popular-exercises {
+    padding-bottom: 50px;
+  }
+
+  .popular-exercises h3 {
+    font-size: 1.25rem;
+  }
+
+  .workout-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .workout-main .workout-img .work-ab-main {
+    left: -47px;
+  }
+
+  .workout-main .workout-img .work-ab-main img {
+    max-width: 100%;
+  }
+
+  .workout-hadding .workout-hadding-ab {
+    left: 10%;
+  }
+
+  .workout-program .workout-hadding {
+    padding-bottom: 175px;
+  }
+
+  .workout-main .workout-img .work-ab-4 {
+    bottom: 33px;
+    right: 16px;
+    z-index: 999;
+  }
+
+  .workout-text {
+    padding-top: 0px;
+  }
+
+  .workout-program .workout-6 {
+    z-index: -1;
+  }
+
+  .workout-program {
+    padding-bottom: 50px;
+  }
+
+  .workout-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .g-fitness {
+    flex-wrap: wrap;
+  }
+
+  .greatest-fitness {
+    padding-bottom: 50px;
+  }
+  .peoples-says .people-say-box{
+    padding: 20px;
+  }
+  .peoples-says .people-say-box ul {
+    flex-wrap: wrap;
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
-    
+.peoples-says .people-say-box ul li .common-btn-2{
+  display: none;
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-    
+.peoples-says-right-2 {
+  
+  bottom: -240px;
+  right: -7px;
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-    
+.peoples-says-right-1{
+  display: none;
 }
-@media screen and (min-width: 1200px) and (max-width: 1399.98px){
-    
+.peoples-says {
+  padding-bottom: 290px;
+}
+.peoples-says .people-say-hadding .people-say-hadding-ab {
+  left: 3px;
+  bottom: -44px;
+}
+.footer-menus {
+  flex-wrap: wrap;
+}
+.single-menus {
+  margin-top: 35px;
+}
+.footer-copy {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .banner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner .banner-title h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .banner .banner-title .title-ab {
+    position: absolute;
+    left: 52px;
+    bottom: 535px
+  }
+
+  .banner ul li {
+    display: block;
+  }
+
+  .banner .common-btn {
+    display: block;
+  }
+
+  .banner .banner-title ul {
+    padding-top: 395px;
+  }
+
+  header .header-ab-dum {
+    top: 284px;
+    right: 323px;
+  }
+
+  header .header-ab {
+    top: 265px;
+    left: 85px;
+  }
+
+  header .header-ab img {
+    max-width: 70%;
+  }
+
+  header .heart-rate {
+    left: 45px;
+    bottom: 660px;
+  }
+
+  .single-popular-exercises {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .single-popular-exercises .single-popular-exercis {
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .ml-164 {
+    margin-left: 0px;
+  }
+
+  .banner .banner-title p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #000;
+  }
+
+  .banner ul li .play-btn {
+    display: none;
+  }
+
+  .banner ul li .watch {
+    display: none;
+  }
+
+  .popular-exercises h3 {
+    justify-content: center;
+  }
+
+  .popular-exercises {
+    padding-bottom: 50px;
+  }
+
+  .workout-text {
+    padding-top: 0px;
+  }
+
+  .workout-main {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .workout-program .workout-6 {
+    z-index: -1;
+  }
+
+  .g-fitness {
+    flex-wrap: wrap;
+  }
+
+  .greatest-fitness {
+    padding-bottom: 100px;
+  }
+  .peoples-says-right-2 {
+    bottom: -124px;
+    right: -5px;
+}
+.peoples-says-right-1 {
+  top: 447px;
+  right: 219px;
+}
+.peoples-says {
+  padding-bottom: 670px;
+}
+.footer-menus .footer-logo button {
+  left: 174px;
+}
+
+@media screen and (min-width: 768.98px) and (max-width: 992px) {
+  header .header-ab {
+    top: 99px;
+    left: 413px;
+  }
+
+  header .heart-rate {
+    left: 460px;
+    bottom: 432px;
+  }
+
+  header .header-ab-dum {
+    right: 190px;
+  }
+  .peoples-says-right-2{
+    right: 100px;
+  }
+  .peoples-says-right-1{
+    right: 0;
+  }
+ 
+}
+}
+
+@media screen and (min-width: 992.98px) and (max-width: 1200px) {
+  header .header-ab {
+    left: 430px;
+  }
+
+  header .heart-rate {
+    left: 566px;
+    bottom: 433px;
+  }
+
+  header .header-ab-dum {
+    right: 205px;
+  }
+  .peoples-says-right-2{
+    right: 100px;
+  }
+  .peoples-says-right-1{
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1200.98px) and (max-width: 1440px) {
+  header .header-ab {
+    left: 600px;
+  }
+
+  header .header-ab-dum {
+    right: 375px;
+  }
+
+  header .heart-rate {
+    left: 635px;
+  }
 }
