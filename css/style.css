@@ -769,9 +769,6 @@ footer {
 
 /* footer-section-end */
 
-.display {
-  display: none;
-}
 
 @media screen and (max-width: 575.98px) {
   .nav-menu {
@@ -944,6 +941,9 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+}
+.footer-menus .footer-logo button {
+  left: 174px;
 }
 }
 
